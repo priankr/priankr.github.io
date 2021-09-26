@@ -3364,18 +3364,18 @@ input, select, textarea {
 			}
 
 		#banner h2 {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.1s ease, -moz-transform 0.1s ease, -moz-filter 0.05s ease;
+			-webkit-transition: opacity 0.1s ease, -webkit-transform 0.1s ease, -webkit-filter 0.05s ease;
+			-ms-transition: opacity 0.1s ease, -ms-transform 0.1s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.1s ease, transform 0.1s ease, filter 0.05s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.65s;
-			-webkit-transition-delay: 0.65s;
-			-ms-transition-delay: 0.65s;
-			transition-delay: 0.65s;
+			-moz-transition-delay: 0.15s;
+			-webkit-transition-delay: 0.15s;
+			-ms-transition-delay: 0.15s;
+			transition-delay: 0.15s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
