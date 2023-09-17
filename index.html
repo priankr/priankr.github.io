@@ -1,148 +1,235 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LSNSLREQ6R"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-		  gtag('config', 'G-LSNSLREQ6R');
+			gtag('config', 'G-LSNSLREQ6R');
 		</script>
 		
-		<link rel="icon" type="image/png" href="images/favicon_image.png">
-		
-		<title>Priank Ravichandar Portfolio</title>
+		<link rel="icon" type="image/jpg" href="images/favicon.jpg">
+
+		<title>Priank R. Data Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<div id="page-wrapper">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Priank Ravichandar | Portfolio</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-				<nav id="menu">
-					<div class="inner">
-						<h2>Menu</h2>
-						<ul class="links">
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Priank R. | Data Portfolio</a></h1>
+					<nav id="nav">
+						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="projects.html">Projects</a></li>
+							<li>
+								<a href="projects.html">Projects</a>
+								<ul>
+									<li>
+										<a href="projects.html#DA">Data Analytics</a>
+										<ul>
+											<li><a href="projects.html#DA_Python">Python</a></li>
+											<li><a href="projects.html#DA_R">R</a></li>
+											<li><a href="projects.html#DA_SQL">SQL</a></li>
+										</ul>
+									</li>
+									<li><a href="projects.html#ML">Machine Learning</a></li>
+								</ul>
+							</li>
 							<li><a href="about.html">About Me</a></li>
+							
 						</ul>
-						<a href="#" class="close">Close</a>
-					</div>
-				</nav>
+					</nav>
+				</header>
 
-				<!-- Banner -->
+			<!-- Banner -->
 				<section id="banner">
-					<div class="inner">
-						<h2>Priank Ravichandar</h2>
-						<h3>Welcome to my portfolio</h3>
+					<div class="content">
+						<header>
+							<h2>Explore the Power of Data</h2>
+						</header>
+						<span class="image"><img src="images/pr_logo.jpg" alt="" /></span>
 					</div>
 				</section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+			<!-- Projects -->
+				<div id="one" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Welcome to my Data Analytics and Machine Learning Portfolio!</h2>
+						</header>
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style3">
-								<div class="inner">
-									<div class="content">
-										<h2 class="major">Featured Projects</h2>									
-										<p>Exploring data to gain insights using Python, R, MySQL and BigQuery</p>
-									</div>
-								</div>
-							</section>
+						<p>
+							I'm passionate about utilizing data-driven decision-making and technology to solve 
+							complex problems and develop innovative solutions. This website showcases my 
+							explorations into applying data analytics and machine learning to several interesting datasets. 
+							<br><br>	
+							Explore how I've extracted key insights, made predictions, and drawn 
+							conclusions by systematically analyzing datasets using Python, R, SQL, and Big Query. 
+						</p>
 
-						<!-- Three: Data_Analysis_Projects -->
-							<section class="wrapper alt style3">
-								<div class="inner">
-									<section class="features">
-										<article>
-											<a href="https://priankr.github.io/airbnb-nyc-data-analysis/" class="image"><img src="images/nyc_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/airbnb-nyc-data-analysis/">NYC Airbnb Listings</a></h3>
-											<p>Analysis of an Airbnb NYC listing dataset from 2019 using Python</p>
-										</article>
-										<article>
-											<a href="https://priankr.github.io/chicago-bike-share-data-analysis/" class="image"><img src="images/bike_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/chicago-bike-share-data-analysis/">Chicago Bike Share</a></h3>
-											<p>Analysis of a bike-share company's ride dataset from 2019 using Python</p>
-										</article>
-										<article>
-											<a href="https://priankr.github.io/nfl-playing-surface-data-analysis/" class="image"><img src="images/nfl_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/nfl-playing-surface-data-analysis/">NFL Playing Surfaces</a></h3>
-											<p>Analysis of NFL datasets related to the effects of type of turf on player movements and the factors contributing to injuries using Python</p>
-										</article>
-										<article>
-											<a href="https://priankr.github.io/museums-data-analysis/" class="image"><img src="images/museum_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/museums-data-analysis/">US Museums</a></h3>
-											<p>Analysis of US Museum income and revenue from 2014 using R</p>
-										</article>
-										<article>
-											<a href="https://priankr.github.io/london-bike-hire-data-analysis/" class="image"><img src="images/london_bike_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/london-bike-hire-data-analysis/">London Bike Hire</a></h3>
-											<p>Analysis of London's Santander Cycle Hire Scheme from 2011 to present using BigQuery/MySQL and Python</p>
-										</article>
-										<article>
-											<a href="https://priankr.github.io/wine-quality-machine-learning/" class="image"><img src="images/wine_image.jpg" alt="" /></a>
-											<h3 class="major"><a href="https://priankr.github.io/wine-quality-machine-learning/">Wine Quality</a></h3>
-											<p>Predicting wine quality scores based on sensory data using machine learning models in Python</p>
-										</article>
-										<ul class="actions">
-											<li><a href="projects.html" class="button">Browse All Projects </a></li>
-										</ul>
-								</div>
-							</section>
+					</div>
+				</div>
 
-				<!-- Footer: About -->
-					<section id="footer">
-						<div id = "About" class="inner">
-							<h2 class="major">About Me</h2>
-							<div class="description">
-								<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>
-									I'm a professional working in project management and consulting, with a passion for solving complex challenges using data and technology. Currently, I am working on remote projects and spending most of my time learning various data science and analytics tools and techniques. Overall, working on building a broad portfolio of technical skills and business knowledge because I am immensely interested in data driven business and operations strategy. Join me as I continue to learn and build my skills!
-									<br><br>
-									Additional details about my work experience and these projects can be found on my LinkedIn, Github and Kaggle accounts.
-								</p>
-								<ul class="actions">
-									<li><a href="about.html" class="button">More About Me</a></li>
-								</ul>
 
-								<h4>Learn more about my work</h4>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/priank-ravichandar/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/priankr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.kaggle.com/priankravichandar" class="icon brands alt fa-kaggle"><span class="label">Kaggle</span></a></li>
-								</ul>
+			<!-- Featured Projects -->
+				<div id="main" class="wrapper style1">
+					<div id = "DA_Python" class="container">
+						<header class="major">
+							<h2>Featured Projects</h2>
+							<p>Explore a collection of data analytics and machine learning projects.</p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Left Sidebar -->
+									<section id="sidebar">
+										<section>
+											<a href="https://priankr.github.io/airbnb-nyc-data-analysis/" class="image fit" target="_blank"><img src="images/nyc_image.jpg" alt="" /></a>
+											<h3>NYC Airbnb Listings</h3>
+											<p>Finding the best Airbnb deals in NYC based on availability, price, location, and reviews.<br><br><b><u>Tags</u></b>: Data Analysis, Python</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/airbnb-nyc-data-analysis/" class="button" target="_blank">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="https://priankr.github.io/nfl-playing-surface-data-analysis/" class="image fit" target="_blank"><img src="images/nfl_image.jpg" alt="" /></a>
+											<h3>NFL Playing Surfaces</h3>
+											<p>Examining how synthetic and natural turf impact NFL players' movement and injury risk.<br><br><b><u>Tags</u></b>: Data Analysis, Python</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/nfl-playing-surface-data-analysis/" class="button" target="_blank">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="https://priankr.github.io/london-bike-hire-data-analysis/" target="_blank" class="image fit"><img src="images/london_bike_image.jpg" alt="" /></a>
+											<h3>London Bike Share</h3>
+											<p>Analyzing trends in bike trips made through the Santander Cycle Hire Scheme in London.<br><br><b><u>Tags</u></b>: Data Analysis, Python, BigQuery, MySQL</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/london-bike-hire-data-analysis/" target="_blank" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>	
+
 							</div>
-							
-							<ul class="copyright">
-								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+							<div class="col-8 col-12-medium">
 
-			</div>
+								<!-- Right Sidebar -->
+									<section id="sidebar">
+										<section>
+											<a href="https://priankr.github.io/chicago-bike-share-data-analysis/" class="image fit" target="_blank"><img src="images/bike_image.jpg" alt="" /></a>
+											<h3>Chicago Bike Share</h3>
+											<p>Investigating a Chicago bike-share company's user demographics and their bike riding habits.<br><br><b><u>Tags</u></b>: Data Analysis, Python</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/chicago-bike-share-data-analysis/" class="button" target="_blank">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="https://priankr.github.io/cnn-tweets-sentiment-analysis/" class="image fit" target="_blank"><img src="images/twitter_image.jpg" alt="" /></a>
+											<h3>CNN International Tweets</h3>
+											<p>Analyzing CNN International&apos;s Tweets to determine the underlying sentiments and subjectivity.<br><br><b><u>Tags</u></b>: Data Analysis, Python, API, Sentiment Analysis</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/cnn-tweets-sentiment-analysis/" class="button" target="_blank">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="https://priankr.github.io/wine-quality-machine-learning/" target="_blank" class="image fit"><img src="images/wine_image.jpg" alt="" /></a>
+											<h3>Wine Quality</h3>
+											<p>Assigning scores to wines by implementing machine learning algorithms to evaluate the factors influencing wine quality.<br><br><b><u>Tags</u></b>: Machine Learning, Python, Support Vector Machines (SVM), Decision Tree, Random Forest</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://priankr.github.io/wine-quality-machine-learning/" target="_blank" class="button">Learn More</a></li>
+												</ul>
+										</section>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>	
+
+			<!-- Data Analysis Skills -->
+				<section id="three" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Data Analysis Skillset</h2>
+							<p>Proficient at translating complex data into meandingful insights.</p>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon brands alt major fa-python"></span>
+									<h3>Python</h3>
+									<p>Utilizing Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn etc.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon brands alt major fa-r-project"></span>
+									<h3>R</h3>
+									<p>Using ggplot2, diplr, tidyr, stringr etc.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-table"></span>
+									<h3>SQL</h3>
+									<p>Executing Joins, Subqueries, Running Totals, DateTime Manipulation etc.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-file-excel"></span>
+									<h3>Excel</h3>
+									<p>Implementing Pivot Tables, VLOOKUP, HLOOKUP, Data Validation, etc.</p>
+								</section>								
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-chart-area"></span>
+									<h3>Visualization</h3>
+									<p>Sythesizing insights into Dashboards, Reports, Presentations, etc.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-cubes"></span>
+									<h3>Machine Learning</h3>
+									<p>Leveraging and optimizing Regression, Clustering, Classification Algorithms.</p>
+								</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<h3>Learn More About My Work</h3>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/priank-ravichandar/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/priankr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.kaggle.com/priankravichandar" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; All rights reserved.</li><li>Design: HTML5 UP</li>
+					</ul>
+				</footer>
+
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
