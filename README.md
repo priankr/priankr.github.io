@@ -1,5 +1,4 @@
 # priankr.github.io
 
-All files related to the GitHub Pages home page.
+All files related to the GitHub Pages site for a portfolio of data analytics and machine learning projects. 
 
-HTML and CSS Templates used are from HTML5up: https://html5up.net/solid-state
